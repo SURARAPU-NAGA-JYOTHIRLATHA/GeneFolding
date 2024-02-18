@@ -1,0 +1,109 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{Darmstadt}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{beaver} % or try albatross, beaver, crane, ...
+  \usefonttheme{structurebold}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\title{GENE FOLDING}
+
+\subtitle{Batch-9}
+\author{\raggedmiddle{\hspace{2mm}G.Navya\hspace{28mm}21B01A0320\quad   MECH\hspace{2}\\ 
+\hspace{-2mm}N.Madhu \hspace{25mm}21B01A0473\hspace{4mm}ECE\\
+\hspace{0mm}S.N.Jyothirlatha\hspace{15mm}21B01A6156\hspace{2.9mm} AI&ML\\
+\hspace{-1mm}G.Samhita\hspace{25mm}21B01A5435\hspace{3.2mm} AI&DS\\
+\hspace{-2mm}V.Pravarshitha\hspace{17mm}22B05A0415\hspace{3.4mm} ECE}}
+\institute{\large Shri Vishnu Engineering College For Women}
+
+\date{February 4, 2023}
+
+\begin{document}
+\begin{frame}
+ \titlepage
+\end{frame}
+
+% Uncomment these lines for an automatically generated outline.
+%\begin{frame}{Outline}
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+\section{Gene Folding}
+
+\begin{frame}{INTRODUCTION:}
+
+\begin{itemize}
+  \item \textbf{To obtain the shortest genetic sequence from a given input genetic sequence using genetically optimized organic folding (GOOF) process.}
+  \item \textbf{Our main aim is to find the length of the shortest sequence or length of the string.}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{APPROACH:}
+
+\begin{itemize}
+\item \textbf{This code takes a string input and returns the length of the shortest string.}
+\item \textbf{The function 'GOOF' implements this logic by using two while loops that check the first and second half of the string respectively.}
+\item \textbf{Finally it returns the length of the shortened string.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{LEARNINGS:}
+\begin{itemize}
+    \item \textbf{We learned the process of the GOOF.}
+    \item \textbf{The way of solving a problem that involves finding all possible paths.}
+    \item \textbf{The problem involves the recognition of palindromes of all possible even lengths which are substrings of the given string.}
+    \item \textbf{Develop skills in pattern recognition, string manipulation and algorithmic optimization.}
+    \item \textbf{We learned how to give input by using command line argument.}
+\end{itemize}
+
+\end {frame}
+
+\begin{frame}{CHALLENGES}
+\begin{itemize}
+    \item \textbf{To understand the problem statement clearly.}
+    \item \textbf{To find the folding points. }
+    \item \textbf{Tracing the state of code time to time we used pen and paper to trace the code.}
+    \item \textbf{To create PDF by using latex.}
+\end{itemize}
+
+\end{frame}
+\begin{frame}{STATISTICS:}
+\begin{itemize}
+    \item \textbf{Number of lines in code are 32.}
+    \item \textbf{Number of functions 1.}
+    \item \textbf{We had taken the input string through command line arguments.}
+    \item \textbf{We made use of two while loops including recursion technique.}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{DEMO/SCREENSHOT:}
+\begin{figure}
+    \centering
+    \includegraphics[width=6cm]{gene_folding.jpg}
+    \caption{Code For Gene Folding}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\centering
+\textbf{\Huge THANK YOU}
+    
+\end{frame}
+
+\end{document}
